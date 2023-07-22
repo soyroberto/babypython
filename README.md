@@ -1,6 +1,6 @@
 # Python
 
-[![CI][forthebadge](OIG.VI9yjEMzUHyDqPHLm3D9.jpg)](http://forthebadge.com)
+[![forthebadge](OIG.VI9yjEMzUHyDqPHLm3D9.jpg)](http://allthingscloud.net)
 
 
 [![CI](https://github.com/athityakumar/colorls/actions/workflows/ruby.yml/badge.svg)](https://github.com/athityakumar/colorls/actions/workflows/ruby.yml)
