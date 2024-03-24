@@ -145,10 +145,10 @@ def a_star_search(grid, src, dest):
 def main():
 	# Define the grid (1 for unblocked, 0 for blocked)
 	grid = [
-		[1, 0, 1, 1, 1, 1, 0, 1, 1, 1],
-		[1, 1, 1, 0, 1, 1, 1, 0, 1, 1],
-		[1, 1, 1, 0, 1, 1, 0, 1, 0, 1],
-		[0, 0, 1, 0, 1, 0, 0, 0, 0, 1],
+		[1, 1, 1, 1, 1, 1, 0, 0, 0, 0],
+		[1, 1, 0, 0, 1, 1, 0, 0, 0, 0],
+		[1, 1, 0, 0, 1, 1, 1, 1, 1, 1],
+		[0, 0, 0, 0, 1, 1, 1, 1, 1, 1],
 		[1, 1, 1, 0, 1, 1, 1, 0, 1, 0],
 		[1, 0, 1, 1, 1, 1, 0, 1, 0, 0],
 		[1, 0, 0, 0, 0, 1, 0, 0, 0, 1],
@@ -158,7 +158,7 @@ def main():
 
 	# Define the source and destination
 	src = [1, 1]
-	dest = [5, 4]
+	dest = [4, 4]
 
 	# Run the A* search algorithm
 	a_star_search(grid, src, dest)
